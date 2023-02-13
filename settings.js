@@ -1,6 +1,6 @@
 const fs = require('fs')
 const chalk = require('chalk')
-const  { indonesia, english, spanyol} = require(`./language`)
+const  { english, sinhala } = require(`./language`)
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
@@ -22,29 +22,29 @@ global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 //language
 //Available in indonesia , english & spanyol 
 //You can request others language 
-global.language = english  //change indonesia to english if you don't understand the language used by the bot
+global.language = english, sinhala  //change indonesia to english if you don't understand the language used by the bot
 
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername= "ᴹᴿ᭄ RASHMIKA ×፝֟͜×" //nama kalian
-global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
-global.youtube = "https://youtube.com/@ChZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://linktr.ee/zeeoneofc" //bebas
-global.email = "janith20062006@gmail.com" //bebas
+global.botname = "Lakiya Bot" //namabot kalian
+global.ownername= "ᴹᴿLakshan ×፝֟͜×" //nama kalian
+global.myweb ="-" //bebas asal jan hapus
+global.youtube = "-" //bebas asal jan hapus
+global.myweb2 = "-" //bebas
+global.email = "cyberassassin56@gmail.com" //bebas
 global.region = "Sri Lanka" //bebas
-global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['94717775628'] //premium user
-global.owner = ["94717775628"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "94717775628" // nomor wa kalian
-global.ownernomerr = "+94717775628" //nmr wa kalian
+global.timezone = 'Asia/Colombo' //  timezone wib
+global.premium = ['94766370881'] //premium user
+global.owner = ["94766370881"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "94766370881" // nomor wa kalian
+global.ownernomerr = "+94766370881" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Alphabot-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm ganti nama kalian
+global.packname = '© Lakiya Bot' //sticker wm ubah
+global.author = 'Lakshan' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
