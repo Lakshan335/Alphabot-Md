@@ -1,6 +1,6 @@
 const fs = require('fs')
 const chalk = require('chalk')
-const  { english, sinhala } = require(`./language`)
+const  { english } = require(`./language`)
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
@@ -22,7 +22,7 @@ global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 //language
 //Available in indonesia , english & spanyol 
 //You can request others language 
-global.language = english, sinhala  //change indonesia to english if you don't understand the language used by the bot
+global.language = english  //change indonesia to english if you don't understand the language used by the bot
 
 
 // Other
